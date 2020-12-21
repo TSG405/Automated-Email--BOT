@@ -1,0 +1,21 @@
+* For "MANUAL CONTROL" --->
+      
+      PIP version 2.20+
+      Python3.8+ IDLE/ PyCharm
+      
+      Libraries Required: secure-smtplib 0.1.1 (pip install secure-smtplib)
+      [Any LIBRARY for "EMAILS" -- email 4.0.2 (pip install email)]
+      
+      
+* For "VOICE CONTROL" --->   
+
+      In addition to " MANUAL CONTROL" req. :
+      
+      Libraries Required: PyAudio 0.2.11 (pip install PyAudio)
+                          If there's an error in Package installation, follow :
+                          
+                                * sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+                                * sudo pip install pyaudio
+                                
+      Libraries Required: pyttsx3 2.90 (pip install pyttsx3)
+      Libraries Required: SpeechRecognition 3.8.1  (pip install SpeechRecognition) 
